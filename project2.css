@@ -69,9 +69,8 @@ a {
   background-image: url(pics/banner.jpg);
   text-align: center;
   font-size: 30px;
-  color: white;
+  color: rgb(30, 29, 29);
   box-shadow: 5px 5px 10px 2px black;
-  text-shadow: 5px 5px 10px 2px black;
   font-family:'Inter', sans-serif;
   line-height: 190px;
   margin-top: -25px;
