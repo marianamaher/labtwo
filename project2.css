@@ -51,5 +51,10 @@ a {
 #accessibilitybanner {
   width: 857px;
   height: 207px;
-  background-image: url(pics/accessibilityoverviewbanner.png);
+  background-image: url(pics/banner.jpg);
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family:'Inter', sans-serif;
+  line-height: 190px;
 }
