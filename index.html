@@ -36,10 +36,14 @@
     <div id="signup" class="heading2">Sign Up!</div>
     <form id="sign-up-form">
       <p>
-        <span id="name" label="name">Name:</span>  <input name="fn" type="text" size="10" id="fn" label="'fn"> <input name="mi" type="text" size="1" id="mi" label="mi">. <input name="ln" type="text" size="10" id="ln" label="ln"><br>
+        <label for="fn">Name:</label>
+       <input name="fn" type="text" size="10" id="fn"> 
+       <input name="mi" type="text" size="1" id="mi" aria-label="mi">
+       <input name="ln" type="text" size="10" id="ln" aria-label="ln"><br>
       </p>
       <p>
-        <span id="email" label="email">Email:</span> <input id="em" name="em" type="text" size="20" label="em">
+        <label for="em">Email:</label>
+        <input id="em" name="em" type="text" size="20" label="em">
       </p>
       <p>
         <span id="spamtext">Would you like to receive occassional emails with offers from us?</span>
