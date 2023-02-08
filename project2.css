@@ -34,8 +34,23 @@ a {
   font-size: 1px;
 }
 
-.navigation a {
+.navigation{
   outline: none;
+  margin-top: 30px;
+  
+}
+
+#nav{
+  color: rgb(55, 155, 166);
+  display:inline-block;
+  border:1px solid #CCC;
+  background:#DDD;
+  box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+  cursor:pointer;
+  vertical-align:middle;
+  max-width: 100px;
+  padding: 5px;
+  text-align: center;
 }
 
 #videoplayer {
@@ -57,9 +72,10 @@ a {
   color: white;
   font-family:'Inter', sans-serif;
   line-height: 190px;
+  margin-top: -25px;
 }
 
 #individualLinks{
   color: black;
-  
+
 }

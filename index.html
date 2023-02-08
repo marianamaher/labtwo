@@ -14,7 +14,9 @@
 <body>
   <div class="container">
     <div class="navigation" role="navigation">
-      <a href="#home"><img src="pics/home.png" alt="homepage button"></a><a href="#links"><img src="pics/links.png" alt="links button"></a> <a href="#signup"><img src="pics/signup.png" alt="sign up button"></a>
+      <div tabindex="1"><a href="#home" id="nav" aria-label="home button">Home</a>
+      <a href="#links" id="nav" aria-label="links button">Links</a>
+      <a href="#signup" id="nav" aria-label="sign up button">Sign Up</a></div>
     </div>
     <div id="accessibilitybanner" role="banner">
       <h1>Accessibility Overview</h1>
@@ -23,7 +25,7 @@
     <video width="480" height="360" id="thevideo">
       <source src="employment-movie.mp4" type="video/mp4">
     </video>
-    <div id="videoplayer" tabindex="5">
+    <div id="videoplayer" tabindex="2">
       <img width="50px" height="50px" src="pics/play.png" alt="videoplayer button">
     </div>
 
